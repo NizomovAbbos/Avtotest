@@ -1,0 +1,88 @@
+html{
+    box-sizing: border-box;
+    height: 100%;
+    scroll-behavior: smooth;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    margin: 0;
+    font-family: "Arial", sans-serif;
+    font-weight: 400;
+    background-color: #fff;
+    
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.container{
+    width: 100%;
+    max-width: 1320px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+ol,
+ul{
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+/* *************************** */
+.site-main{
+    height: 100%;
+    background-image: url(../images/back-to-future.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.welcome-avt{
+    margin-top: 150px;
+}
+
+.btn-answers{
+    width: auto;
+    min-width: 250px;
+    background-color: darkslategray;
+}
+
+.btn:hover{
+    font-size: 17px;
+    box-shadow: 0px 0px 20px red;
+}
+
+.text-time{
+    background-color:#283be8;
+    box-shadow: 0px 0px 20px red;
+}
